@@ -7,7 +7,7 @@ const ContactsList = (props) => {
   const contacts = useSelector(state => state.contacts.value)
 
   return(
-    contacts.filter(entry => entry.name.toLowerCase().includes(query)).map(info =>
+    contacts.filter(entry => entry.name.toLowerCase().includes(query) || entry.mobile.includes(query)).map(info =>
       <Mininfo
           name={info.name}
           mobile={info.mobile}
