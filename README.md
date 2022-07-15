@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-project is incomplete, contacts can be accessed on /homepage route and they're accessible for all users. you have to change dev script in backend/package.lock file to "nodemon index" if you're using windows. 
+project is incomplete, contacts can be accessed on /homepage route and they're accessible for all users. you have to change dev script in backend/package.lock file to "nodemon index" if you're using windows.
+also create .env file in /backend with "mongo = mongodb+srv://whoami:mongo123@cluster0.ysgfgbe.mongodb.net/?retryWrites=true&w=majority"
 
 ## Available Scripts
 
