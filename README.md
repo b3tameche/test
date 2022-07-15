@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+project is incomplete, contacts can be accessed on /homepage route and they're accessible for all users. you have to change dev script in backend/package.lock file to "nodemon index" if you're using windows. 
 
 ## Available Scripts
 
